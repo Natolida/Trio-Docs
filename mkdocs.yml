@@ -206,6 +206,7 @@ nav:
       - Other Settings: ./settings/configuration/preferences/othersettings.md
       - Sensitivity Settings: ./settings/configuration/preferences/targetsettings.md
   - Resources:
+      - FAQs: ./resources/faq.md
       - Citations: ./resources/citations.md
       - Translation: ./resources/translate.md
       - TrioDocs PDF: ./trio-docs.pdf
