@@ -140,8 +140,8 @@ SMBs are limited by your Max `Max SMB Basal Minutes` and `Max UAM SMB Basal Minu
 ### Why isn't Trio looping when CGM glucose is 40 mg/dl (2.2 mmol/l) or lower?
 Trio can’t determine the glucose value when under 40mg/dL (2.2 mmol/L). This is why the CGM apps from Dexcom and Libre are displaying “Low.” A “Low” reading is also sometimes due to a sensor error or a faulty sensor needing replacement. Trio can't safely make a glucose prediction without knowing the glucose value or if it’s rising or falling.
 
-### Why isn't Trio looping or delivering insulin when CGM glucose is 400 mg/dl (22 mmol/l) or higher?
-Trio can’t determine the glucose value when over 400mg/dL (22 mmol/L). This is why the CGM apps from Dexcom and Libre display “High.” A “High” reading is also sometimes due to a sensor error or a faulty sensor needing replacement. Trio can't safely make a glucose prediction without knowing the glucose value or if it’s rising or falling.  
+### Why isn't Trio looping or delivering insulin when CGM glucose is 400 mg/dl (22.2 mmol/l) or higher?
+Trio can’t determine the glucose value when over 400mg/dL (22.2 mmol/L). This is why the CGM apps from Dexcom and Libre display “High.” A “High” reading is also sometimes due to a sensor error or a faulty sensor needing replacement. Trio can't safely make a glucose prediction without knowing the glucose value or if it’s rising or falling.  
 
 ## Omnipod FAQs
 
@@ -154,7 +154,7 @@ You do not need the Omnipod Personal Diabetes Manager (PDM); you need the pod su
 In other words, your PDM can stay in the diabetes closet while you are Looping. You cannot use the PDM for a pod activated with the Trio app. That doesn't mean you should get rid of your PDM if you have one. Instead, keep it for backup situations if you lose your phone. 
 
 ### Does Trio cause an increase in pod failures?
-There is more communication between your phone and the pod than the PDM. This increases the load on the pod battery. Most people have no increase in pod failures. However, it does occasionally happen. Below are some tips to take to limit battery drain:
+There is more communication between your phone and the pod than the PDM, which increases the load on the pod battery. Most people have no increase in pod failures. However, it does occasionally happen. Below are some tips to take to limit battery drain:
 * The pod state is updated every 3 minutes for DASH and every 5 minutes for Eros. If uncertain communications are detected such that Trio cannot determine if a dosing command sent to the pod was received, the app will try once a minute to get a response.
 * If using Eros pods with a RileyLink device. Be mindful of situations that may lead to poor signal. Poor communication between devices may lead to battery drain and contribute to faults.
 <br>
@@ -164,15 +164,15 @@ There is more communication between your phone and the pod than the PDM. This in
 ### What CGMs are supported by Trio?
 The following CGM can be used with Trio:
 * Dexcom G5
-* Dexcom G6/ONE
-* Dexcom G7/ONE+
+* Dexcom G6 / ONE
+* Dexcom G7 / ONE+
 * Medtronic Enlite (must use compatible pump)
 * Libre (limited Models)
 >* US Libre 1 10-day sensors via Transmitters
 >* US Libre 1 14-day sensors via Transmitters
 >* International Libre 1 sensors via Transmitters
->* European Libre 2/2+ sensors via Transmitters
->* European Libre 2/2+ sensors directly via Bluetooth
+>* European Libre 2 / 2 Plus sensors via Transmitters
+>* European Libre 2 / 2 Plus sensors directly via Bluetooth
 
 ###What CGM apps can be used with Trio?
 **xDrip**
