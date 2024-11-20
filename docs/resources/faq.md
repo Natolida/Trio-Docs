@@ -26,6 +26,7 @@ Often, the non-tech people do better than the tech people in building Trio. Why?
 ### How long does it take to build Trio?
 The answer to this question is very user-dependent. If you are new to building and need to immerse yourself in the documentation, then a few hours. However, some users like to break this down into smaller, more manageable chunks and complete the task over 24 hours. If you are a repeat builder familiar with the documentation, build, and update process, then 10 - 15 minutes. 
 There are two options for building at present:
+
 * The 'Browser Build' method using GitHub.
 * The 'Mac Build' method using XCode.
 
@@ -105,7 +106,8 @@ Autosens allows the system to analyze historical data on the go and make adjustm
 
 `Autosens Max` and `Autosens Min` are the safety limiters the algorithm places on Autosens.`Autosens Max` determines the maximum ratio autosens can use for its adjustments. Increasing this value allows autosens to increase insulin through your basal profile, ISF, and target blood glucose. Conversely, `Autosens Min` determines the minimum ratio autosens can use for adjustments. Decreasing this value allows autosens to reduce insulin given through your basal profile, ISF, and target blood glucose.
 
-Various blog posts have been written over the years regarding Autosens, and links to some can be found below: 
+Various blog posts have been written over the years regarding Autosens, and links to some can be found below:
+
 * Dana Lewis, [Autosensitivity](https://diyps.org/2016/12/02/autosensitivity-automatically-adjusting-insulin-sensitivity-factor-for-insulin-dosing-with-openaps/).
 * Tim Street, [Understanding Autosens](https://www.diabettech.com/artificial-pancreas/understanding-autosens/).
 
@@ -113,6 +115,7 @@ Various blog posts have been written over the years regarding Autosens, and link
 Super micro bolus, or SMB, is designed to give you reasonable amounts of bolus insulin upfront and use reduced temporary basal rates to balance out the peak insulin timing safely. Why? The reason for using SMB over a higher temporary basal rate is that it allows insulin to be delivered sooner. Thus, avoiding glucose spikes by front-loading insulin delivery. 
 
 Various blog posts have been written over the years regarding SMBs, and links to some can be found below:
+
 * Dana Lewis, [Introducing oref1 and super-microboluses](https://diyps.org/2017/04/30/introducing-oref1-and-super-microboluses-smb-and-what-it-means-compared-to-oref0-the-original-openaps-algorithm/)
 * Tim Street, [Understanding SMB and oref1](https://diyps.org/2017/04/30/introducing-oref1-and-super-microboluses-smb-and-what-it-means-compared-to-oref0-the-original-openaps-algorithm/).
 
@@ -155,6 +158,7 @@ In other words, your PDM can stay in the diabetes closet while you are Looping. 
 
 ### Does Trio cause an increase in pod failures?
 There is more communication between your phone and the pod than the PDM, which increases the load on the pod battery. Most people have no increase in pod failures. However, it does occasionally happen. Below are some tips to take to limit battery drain:
+
 * The pod state is updated every 3 minutes for DASH and every 5 minutes for Eros. If uncertain communications are detected such that Trio cannot determine if a dosing command sent to the pod was received, the app will try once a minute to get a response.
 * If using Eros pods with a RileyLink device. Be mindful of situations that may lead to poor signal. Poor communication between devices may lead to battery drain and contribute to faults.
 <br>
@@ -163,16 +167,17 @@ There is more communication between your phone and the pod than the PDM, which i
 
 ### What CGMs are supported by Trio?
 The following CGM can be used with Trio:
+
 * Dexcom G5
 * Dexcom G6 / ONE
 * Dexcom G7 / ONE+
 * Medtronic Enlite (must use compatible pump)
 * Libre (limited Models)
->* US Libre 1 10-day sensors via Transmitters
->* US Libre 1 14-day sensors via Transmitters
->* International Libre 1 sensors via Transmitters
->* European Libre 2 / 2 Plus sensors via Transmitters
->* European Libre 2 / 2 Plus sensors directly via Bluetooth
+* US Libre 1 10-day sensors via Transmitters
+* US Libre 1 14-day sensors via Transmitters
+* International Libre 1 sensors via Transmitters
+* European Libre 2 / 2 Plus sensors via Transmitters
+* European Libre 2 / 2 Plus sensors directly via Bluetooth
 
 ###What CGM apps can be used with Trio?
 **xDrip**
